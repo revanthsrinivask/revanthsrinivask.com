@@ -1299,89 +1299,150 @@
         </div>
 
 
-        <form class="contact-form" id="contactForm">
-
-    <div class="form-row">
-
-        <div class="form-group">
-            <label>Your Name</label>
-
-            <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Your name"
-                required
-            >
-        </div>
-
-
-        <div class="form-group">
-            <label>Email</label>
-
-            <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="your@email.com"
-                required
-            >
-        </div>
-
-    </div>
-
-
-    <div class="form-group">
-
-        <label>Subject</label>
-
-        <input
-            type="text"
-            name="subject"
-            id="subject"
-            placeholder="Project / Job opportunity"
+        <form
+            action="https://formsubmit.co/667b5b390612d5be5f0baa5c9dd199f0"
+            method="POST"
+            class="contact-form reveal"
+            id="contactForm"
         >
 
-    </div>
+
+            <!-- FormSubmit settings -->
+
+            <input
+                type="hidden"
+                name="_subject"
+                value="New Portfolio Contact Message"
+            >
 
 
-    <div class="form-group">
-
-        <label>Message</label>
-
-        <textarea
-            name="message"
-            id="message"
-            rows="6"
-            placeholder="Tell me about your project..."
-            required
-        ></textarea>
-
-    </div>
+            <input
+                type="hidden"
+                name="_template"
+                value="table"
+            >
 
 
-    <button
-        type="submit"
-        class="btn btn-primary"
-        id="submitButton"
-    >
-
-        Send Message
-
-        <i class="fa-solid fa-arrow-right"></i>
-
-    </button>
+            <input
+                type="hidden"
+                name="_captcha"
+                value="true"
+            >
 
 
-    <div
-        class="form-message"
-        id="formMessage"
-    ></div>
+            <input
+                type="hidden"
+                name="_url"
+                value="https://revanthsrinivask.github.io/"
+            >
 
-</form>
+
+            <!-- Visitor name -->
+
+            <div class="form-row">
+
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Your Name
+                    </label>
+
+
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Your name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Visitor email -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="your@email.com"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- Subject -->
+
+            <div class="form-group">
+
+                <label for="subject">
+                    Subject
+                </label>
+
+
+                <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Project / Job opportunity"
+                >
+
+            </div>
+
+
+            <!-- Message -->
+
+            <div class="form-group">
+
+                <label for="message">
+                    Message
+                </label>
+
+
+                <textarea
+                    name="message"
+                    id="message"
+                    rows="6"
+                    placeholder="Tell me about your project..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <!-- Submit -->
+
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+
+                Send Message
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+
+        </form>
+
     </div>
 
 </section>
+
 
 
 <!-- =====================================================
